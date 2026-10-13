@@ -1,0 +1,11 @@
+{
+  "name": "copilot-cli-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Node.js CLI calculator from the GitHub Skills exercise.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/calculator.js",
+    "test": "node --test src/tests/*.test.js"
+  }
+}
